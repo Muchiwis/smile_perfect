@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 66.5%;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #071952;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.8rem;
+}
 
-
-
+img,
+picture {
+  width: 100%;
+  display: block;
+}
