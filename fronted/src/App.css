@@ -1,0 +1,42 @@
+.logo-text {
+  font-family: "Sacramento", cursive;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 641px) and (orientation: landscape) {
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 641px) and (orientation: portrait) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .showtHighTablet {
+    display: block;
+  }
+  .hideHighTablet {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .showDesktop {
+    display: block;
+  }
+  .hideHighDesktop {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .beforeDesktopHidden {
+    display: none;
+  }
+}
